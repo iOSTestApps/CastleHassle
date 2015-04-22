@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95DE439A-F370-4E91-93DC-765A774EE4DA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rev6</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6CB282123AC231AE27A038EF06BA10B8820DD133</key>
+		<string>https://github.com/iOSTestApps/CastleHassle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Rev6.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6CB282123AC231AE27A038EF06BA10B8820DD133</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/iOSTestApps/CastleHassle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6CB282123AC231AE27A038EF06BA10B8820DD133</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6CB282123AC231AE27A038EF06BA10B8820DD133</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CastleHassle</string>
+		</dict>
+	</array>
+</dict>
+</plist>
