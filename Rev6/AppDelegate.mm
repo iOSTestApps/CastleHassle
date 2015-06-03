@@ -12,6 +12,7 @@
 #import "GameConfig.h"
 #import "RootViewController.h"
 #import "MainMenu.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 @implementation AppDelegate
 
@@ -41,6 +42,8 @@
 
 - (void) applicationDidFinishLaunching:(UIApplication*)application
 {
+	[BuddyBuildSDK setup:self];
+	
 	// Init the window
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
@@ -160,6 +163,16 @@
 	[[CCDirector sharedDirector] end];
 	[window release];
 	[super dealloc];
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+	if ([BuddyBuildSDK handleOpenURL:url]) {
+		return YES;
+	}
+	return NO;
 }
 
 @end
