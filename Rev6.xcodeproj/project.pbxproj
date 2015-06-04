@@ -484,6 +484,9 @@
 		02F59C1514BDD14800C9349A /* CannonBallExplosion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02F59C0D14BDD14800C9349A /* CannonBallExplosion.mm */; };
 		02F59C1614BDD14800C9349A /* CannonBallTrail.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02F59C0F14BDD14800C9349A /* CannonBallTrail.mm */; };
 		02F59C1714BDD14800C9349A /* DestroyedPieceAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02F59C1114BDD14800C9349A /* DestroyedPieceAnimation.mm */; };
+		22DF7E4B7D883CC528C6A77A /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A103B373600824B5D92E8DF /* BuddyBuildSDK.framework */; };
+		494FB618D8EB9EC23817659D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E32BC1E3234D17DDBC07CF /* CoreText.framework */; };
+		D93ED7A63C688B3BF314336A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EDF24906D69BFDB26BC2DB /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1189,6 +1192,9 @@
 		02F59C0F14BDD14800C9349A /* CannonBallTrail.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CannonBallTrail.mm; sourceTree = "<group>"; };
 		02F59C1014BDD14800C9349A /* DestroyedPieceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestroyedPieceAnimation.h; sourceTree = "<group>"; };
 		02F59C1114BDD14800C9349A /* DestroyedPieceAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DestroyedPieceAnimation.mm; sourceTree = "<group>"; };
+		56E32BC1E3234D17DDBC07CF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		89EDF24906D69BFDB26BC2DB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9A103B373600824B5D92E8DF /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1205,6 +1211,9 @@
 				02F5976914BDCB3F00C9349A /* UIKit.framework in Frameworks */,
 				02F5976B14BDCB3F00C9349A /* Foundation.framework in Frameworks */,
 				02F5976D14BDCB3F00C9349A /* CoreGraphics.framework in Frameworks */,
+				22DF7E4B7D883CC528C6A77A /* BuddyBuildSDK.framework in Frameworks */,
+				D93ED7A63C688B3BF314336A /* AssetsLibrary.framework in Frameworks */,
+				494FB618D8EB9EC23817659D /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1404,6 +1413,9 @@
 				02F5976814BDCB3F00C9349A /* UIKit.framework */,
 				02F5976A14BDCB3F00C9349A /* Foundation.framework */,
 				02F5976C14BDCB3F00C9349A /* CoreGraphics.framework */,
+				9A103B373600824B5D92E8DF /* BuddyBuildSDK.framework */,
+				89EDF24906D69BFDB26BC2DB /* AssetsLibrary.framework */,
+				56E32BC1E3234D17DDBC07CF /* CoreText.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2962,6 +2974,10 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Rev6/Prefix.pch;
@@ -2982,6 +2998,10 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Rev6/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
